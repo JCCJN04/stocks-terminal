@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "server.js": {
+      "includeFiles": "index.html"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/server.js" }
+  ]
+}

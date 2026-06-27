@@ -1,0 +1,18 @@
+{
+  "name": "quant-terminal",
+  "version": "1.0.0",
+  "description": "Investment Decision Dashboard — local API server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --max-http-header-size=65536 server.js",
+    "dev": "node --max-http-header-size=65536 --watch server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.21.0",
+    "yahoo-finance2": "^2.11.3"
+  }
+}
